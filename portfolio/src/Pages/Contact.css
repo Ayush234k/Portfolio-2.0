@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    scroll-behavior: smooth;
+}
+#part-5{
+    width: 100vw;
+    height: 92vh;
+    /* border: 2px solid rgb(0, 0, 0); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(33, 33, 33);
+}
+.g1{
+    width: 100%;
+    height: 25%;
+    /* background: black; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: "Custom";
+}
+.gc{
+    width: 70%;
+    height: 30%;
+    /* background: red; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    letter-spacing: 3px;
+    /* word-spacing: 5px; */
+    
+}
+.gb{
+    width: 100%;
+    height: 30%;
+    /* background: greenyellow; */
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.bt{
+    width: 15%;
+    height: 30%;
+    /* background: black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(3, 0, 200);
+    border-radius: 10px;
+    font-size: 22px;
+}
+.bt a{
+    color: white;
+    text-decoration: none;
+}
+.bt:hover{
+    background: rgb(4, 0, 255,0.2);
+}
+.ft{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    letter-spacing: 2px;
+}
