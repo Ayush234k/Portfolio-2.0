@@ -5,15 +5,17 @@
     font-family: 'Kanit', sans-serif;
     scroll-behavior: smooth;
 }
+body.active-modal {
+    overflow-y: hidden;
+}
 #part-5{
     width: 100vw;
     height: 92vh;
-    /* border: 2px solid rgb(0, 0, 0); */
+    background: rgb(0, 0, 0, 0.4);
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: rgb(33, 33, 33);
 }
 .g1{
     width: 100%;
@@ -54,16 +56,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid rgb(3, 0, 200);
+    border: 2px solid rgb(15, 0, 223);
     border-radius: 10px;
-    font-size: 22px;
-}
-.bt a{
-    color: white;
-    text-decoration: none;
+    font-size: 20px;
+    cursor: pointer;
 }
 .bt:hover{
-    background: rgb(4, 0, 255,0.2);
+    background: rgba(15, 0, 223, 0.1);
+    font-size: 22px;
 }
 .ft{
     width: 100%;
@@ -73,4 +73,97 @@
     justify-content: center;
     color: white;
     letter-spacing: 2px;
+}
+
+.Box{
+    width: 40vw;
+    height: 70vh;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding-top: 30px;
+    border: none;
+    outline: none;
+}
+#transition-modal-description{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.wrapper{
+    width: 90%;
+    height: 14%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.contact-input{
+    width: 90%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    color: white;
+}
+.contact-textarea{
+    width: 90%;
+    height: 40%;
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 5px;
+    padding: 15px 0px 0px 20px;
+}
+.contact-input::placeholder,
+.contact-textarea::placeholder{
+    font-size: 18px;
+    color: rgb(172, 172, 172);
+}
+.wrapper:hover,
+.contact-textarea:hover{
+    border: 1px solid rgb(255, 255, 255);
+}
+.ER{
+    color: #ffffff;
+}
+#btn-1{
+    width: 90%;
+    height: 13%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3F00FF;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    color: black;
+    border: none;
+    color: white;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+textarea:-webkit-autofill:active{
+-webkit-text-fill-color: rgb(255, 255, 255);
+transition: background-color 5000s;
 }

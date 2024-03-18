@@ -1,8 +1,7 @@
 #part-2{
     width: 100vw;
     height: 92vh;
-    background: rgb(25, 25, 25);
-    /* border: 2px solid rgb(255, 255, 255); */
+    background: rgb(0, 0, 0, 0.4);
     display: flex;
     flex-direction: row;
 }
@@ -34,6 +33,7 @@
     font-size: 23px;
     padding-top: 30px;
     letter-spacing: 3px;
+    line-height: 2rem;
 }
 .ar{
     width: 40%;
@@ -43,10 +43,11 @@
     justify-content: center;
 }
 .pic{
-    width: 55%;
-    height: 55%;
-    /* background: orange; */
-    border: 2px solid rgb(3, 0, 200);
+    width: 60%;
+    height: 70%;
+    background-image: url(../assets/imG-self-1.png);
+    background-size: cover;
+    border: 2px solid rgb(110, 0, 200);
     border-radius: 10px;
     
 }

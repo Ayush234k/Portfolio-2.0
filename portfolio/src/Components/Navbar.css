@@ -9,10 +9,10 @@
       justify-content: space-between;
       align-items: center;
       background: transparent;
-      padding: 1rem;
-      background-color: black;
       color: #fff;
       font-family: "Custom";
+      background: rgb(0, 0, 0, 0.4);
+      padding-right: 30px;
     }
     
     .navbar-brand {
@@ -30,7 +30,7 @@
     .navbar-links {
       font-size: 1.2rem;
       display: flex;
-      gap: 40px;
+      gap: 60px;
       padding-right: 30px;
       font-family: 'Kanit', sans-serif;
       letter-spacing: 1px;
