@@ -24,7 +24,7 @@ const Skills = () => {
     }, [])
  
   return (
-    <div className='Contain'>
+    <div className='Contain-3'>
     <Navbar/>
     <div id="part-3">
         <div class="skill">Skills</div>
@@ -96,8 +96,7 @@ const Skills = () => {
             </div>
 
 
-            <div class="skill-1-R">
-            </div>
+            <div class="skill-1-R"/>
         </div>
     </div>
     </div>

@@ -167,3 +167,83 @@ textarea:-webkit-autofill:active{
 -webkit-text-fill-color: rgb(255, 255, 255);
 transition: background-color 5000s;
 }
+
+/* ------------------------------------------ MOBILE VIEW -------------------------------------------------- */
+@media screen and (max-width: 500px){
+    .fa-brands,
+    .fa-solid{
+        display: none;
+    }
+.Contain-5{
+    width: 100vw;
+    height: 100vh;
+    }
+    #part-5{
+        padding-top: 30px;
+        height: 90%;
+        /* display: none; */
+    }
+    .g1{
+        height: 20%;
+        font-size: 35px;
+        padding: 0px 10px 0px 10px;
+        /* display: none; */
+    }
+    .gc{
+        width: 100%;
+        height: 20%;
+        font-size: 15px;
+        padding: 0px 15px 0px 15px;
+        letter-spacing: 2px;
+        /* display: none; */
+    }
+    .gb{
+        height: 30%;
+        align-items: center;
+        flex-direction: column;
+        justify-content:flex-start;
+        padding-top: 0px;
+        /* display: none; */
+    }
+    .bt{
+        height: 30%;
+        width: 50%;
+        font-size: 15px;
+        border-radius: 0px;
+        margin-top: 40px;
+        /* display: none; */
+    }
+    .ft{
+        height: 25%;
+        align-items: flex-end;
+        justify-content: baseline;
+        font-family: 'Roboto', sans-serif;
+        font-size: 10px;
+        letter-spacing: 1px;
+        /* display: none; */
+    }
+    .Box{
+        width: 90%;
+        height: 55%;
+    }
+    #transition-modal-title{
+        font-size: 12px;
+        height: 10%;
+    }
+    .wrapper{
+        height: 15%;
+        padding-left: 10px;
+    }
+    .contact-input{
+        width: 85%;
+    }
+    #btn-1{
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .contact-input::placeholder,
+    .contact-textarea::placeholder{
+    font-size: 13px;
+    color: rgb(172, 172, 172);
+    }
+}

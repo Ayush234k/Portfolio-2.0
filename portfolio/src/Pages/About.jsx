@@ -4,9 +4,9 @@ import Navbar from '../Components/Navbar';
 import './About.css';
 
 const About = () => {
- 
+
   return (
-    <div className='Contain'>
+    <div className='Contain-2'>
     <Navbar/>
     <div id="part-2">
         <div class="al">
@@ -24,4 +24,5 @@ const About = () => {
     </div>
   );
 };
+
 export default About;

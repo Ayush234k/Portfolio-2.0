@@ -72,7 +72,7 @@ export const Contact = () =>  {
 
   return (
     <div>
-      <div className='Contain'>
+      <div className='Contain-5'>
             <Navbar/>
         <div id="part-5">
             <div class="g1">
@@ -92,7 +92,7 @@ export const Contact = () =>  {
         </div>
         <ToastContainer
           position="bottom-left"
-          autoClose={5000}
+          autoClose={10000000000000000000}
           hideProgressBar={false}
           newestOnTop={false}
           closeOnClick

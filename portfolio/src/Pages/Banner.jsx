@@ -9,7 +9,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 const Banner = () => {
 
   return (
-    <div className="Contain">
+    <div className="Contain-1">
     <Navbar/>
         <div class="content">
             <div class="name">
@@ -23,11 +23,12 @@ const Banner = () => {
                 <div class="contact">
                     <div class="one"><a href= "#">Explore My Portfolio</a></div>
                     <div class="two"><a href= "https://www.linkedin.com/in/ayush-singh-6a3a37253/" target="_blank">Connect With Me</a></div>
-                    <div class="three">You Can Explore More About My Portfolio And<br/> Personal Life Experience Here </div>
+                    <div class="three">You Can Explore More About My Portfolio And Personal Life Experience Here </div>
                 </div>
             </div>
         <div class="icons">
-            <a href="https://www.instagram.com/_ayushh_singh/" target="_blank"><InstagramIcon sx={{fontSize:45, color:"white"}}/></a>
+            <a href="https://www.instagram.com/_ayushh_singh/" target="_blank"><InstagramIcon sx={{fontSize:45, color:"white"}}
+            /></a>
             <a href="https://wa.me/7979887495" target="_blank"><WhatsAppIcon sx={{fontSize:45, color:"white"}}/></a>
             <a href="https://github.com/Ayush234k" target="_blank"><GitHubIcon sx={{fontSize:45, color:"white"}}/></a>
         </div>
