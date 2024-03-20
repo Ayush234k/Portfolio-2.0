@@ -132,6 +132,8 @@
         display: none;
     }
     .Contain-3{
+        background-image: url(../assets/imG31.png);
+        background-size: cover;
         height: 120vh;
     }
     #part-3{

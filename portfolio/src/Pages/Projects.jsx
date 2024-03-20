@@ -17,12 +17,12 @@ const Projects = () => {
             <div class="card" data-aos="zoom-in-up">
                 <div class="links">
                     <div class="L">
-                        <FolderIcon sx={{fontSize:35, color:"white"}}/>
+                        <FolderIcon id='project-icons' sx={{fontSize:35, color:"white"}}/>
                     </div>
                     <div class="R">
-                        <AccountTreeIcon sx={{fontSize:35, color:"white"}}/>
+                        <AccountTreeIcon id='project-icons' sx={{fontSize:35, color:"white"}}/>
                         <a href="./Project Links/Weather App/index.html" target="_blank">
-                            <CallMadeIcon sx={{fontSize:35, color:"#007FFF"}}/>
+                            <CallMadeIcon id='project-icons' sx={{fontSize:35, color:"#007FFF"}}/>
                         </a>
                     </div>
                 </div>
@@ -31,12 +31,12 @@ const Projects = () => {
             <div class="card" data-aos="zoom-in-up">
                 <div class="links">
                     <div class="L">
-                        <FolderIcon sx={{fontSize:35, color:"white"}}/>
+                        <FolderIcon id='project-icons' sx={{fontSize:35, color:"white"}}/>
                     </div>
                     <div class="R">
-                        <AccountTreeIcon sx={{fontSize:35, color:"white"}}/>
+                        <AccountTreeIcon id='project-icons' sx={{fontSize:35, color:"white"}}/>
                         <a href="./projectLinks/carWebpage/car.html" target="_blank">
-                            <CallMadeIcon sx={{fontSize:35, color:"#007FFF"}}/>
+                            <CallMadeIcon id='project-icons' sx={{fontSize:35, color:"#007FFF"}}/>
                         </a>
                     </div>
                 </div>
@@ -45,12 +45,12 @@ const Projects = () => {
             <div class="card" data-aos="zoom-in-up">
                 <div class="links">
                     <div class="L">
-                        <FolderIcon sx={{fontSize:35, color:"white"}}/>
+                        <FolderIcon id='project-icons' sx={{fontSize:35, color:"white"}}/>
                     </div>
                     <div class="R">
-                        <AccountTreeIcon sx={{fontSize:35, color:"white"}}/>
+                        <AccountTreeIcon id='project-icons' sx={{fontSize:35, color:"white"}}/>
                         <a href="./Project Links/Dashboard/asg2.html" target="_blank">
-                            <CallMadeIcon sx={{fontSize:35, color:"#007FFF"}}/>
+                            <CallMadeIcon id='project-icons' sx={{fontSize:35, color:"#007FFF"}}/>
                         </a>
                     </div>
                 </div>
@@ -61,12 +61,12 @@ const Projects = () => {
             <div class="card" data-aos="zoom-in-up">
                 <div class="links">
                     <div class="L">
-                        <FolderIcon sx={{fontSize:35, color:"white"}}/>
+                        <FolderIcon id='project-icons' sx={{fontSize:35, color:"white"}}/>
                     </div>
                     <div class="R">
-                        <AccountTreeIcon sx={{fontSize:35, color:"white"}}/>
+                        <AccountTreeIcon id='project-icons' sx={{fontSize:35, color:"white"}}/>
                         <a href="./Project Links/Registration Form/form.html" target="_blank">
-                            <CallMadeIcon sx={{fontSize:35, color:"#007FFF"}}/>
+                            <CallMadeIcon id='project-icons' sx={{fontSize:35, color:"#007FFF"}}/>
                         </a>
                     </div>
                 </div>
@@ -75,11 +75,11 @@ const Projects = () => {
             <div class="card">
                 <div class="links">
                     <div class="L">
-                        <FolderIcon sx={{fontSize:35, color:"white"}}/>
+                        <FolderIcon id='project-icons' sx={{fontSize:35, color:"white"}}/>
                     </div>
                     <div class="R">
-                        <AccountTreeIcon sx={{fontSize:35, color:"white"}}/>
-                        <a href="#"><CallMadeIcon sx={{fontSize:35, color:"#007FFF"}}/></a>
+                        <AccountTreeIcon id='project-icons' sx={{fontSize:35, color:"white"}}/>
+                        <a href="#"><CallMadeIcon id='project-icons' sx={{fontSize:35, color:"#007FFF"}}/></a>
                     </div>
                 </div>
                 <p><b>FOOD PORTAL</b></p>
@@ -87,12 +87,12 @@ const Projects = () => {
             {/* <div class="card">
                 <div class="links">
                     <div class="L">
-                        <FolderIcon sx={{fontSize:35, color:"white"}}/>
+                        <FolderIcon id='project-icons' sx={{fontSize:35, color:"white"}}/>
                     </div>
                     <div class="R">
-                        <AccountTreeIcon sx={{fontSize:35, color:"white"}}/>
+                        <AccountTreeIcon id='project-icons' sx={{fontSize:35, color:"white"}}/>
                         <a href="#">
-                        <CallMadeIcon sx={{fontSize:35, color:"#6E00C8"}}/>
+                        <CallMadeIcon id='project-icons' sx={{fontSize:35, color:"#6E00C8"}}/>
                         </a>
                     </div>
                 </div>

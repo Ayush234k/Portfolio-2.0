@@ -123,7 +123,7 @@ export const Contact = () =>  {
           </Typography>
           <form ref={form} onSubmit={sendEmail} id='transition-modal-description'>
             <div className="wrapper">
-            <PersonIcon sx={{fontSize:30}} className='ER'/>              
+            <PersonIcon id='contact-icons' sx={{fontSize:30}} className='ER'/>              
             <input 
                 type="text" 
                 className="contact-input"
@@ -158,7 +158,7 @@ export const Contact = () =>  {
 
             
             <div className="wrapper">
-            <EmailRoundedIcon sx={{fontSize:30}} className='ER'/>
+            <EmailRoundedIcon id='contact-icons' sx={{fontSize:30}} className='ER'/>
             <input 
                 type="email" 
                 className="contact-input"

@@ -175,8 +175,10 @@ transition: background-color 5000s;
         display: none;
     }
 .Contain-5{
-    width: 100vw;
-    height: 100vh;
+        background-image: url(../assets/imG31.png);
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
     }
     #part-5{
         padding-top: 30px;
@@ -236,6 +238,9 @@ transition: background-color 5000s;
     }
     .contact-input{
         width: 85%;
+    }
+    #contact-icons{
+        font-size: 20px;
     }
     #btn-1{
         margin-bottom: 20px;
